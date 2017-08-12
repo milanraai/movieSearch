@@ -25,7 +25,7 @@ $.get("http://api.openweathermap.org/data/2.5/weather?q=Boston,ma & units=imperi
 	console.log(data);
 })
 	.fail(function() {
-	console.log("try again, asshole!!");
+	console.log("try again!!");
 });
 
 $.get("http://omdbapi.com/?s=star wars&r=XML", null, null, "XML")
@@ -33,5 +33,5 @@ $.get("http://omdbapi.com/?s=star wars&r=XML", null, null, "XML")
 	console.log(data);
 })
 	.fail(function() {
-	console.log("try again, asshole!!");
+	console.log("try again!!");
 });	
